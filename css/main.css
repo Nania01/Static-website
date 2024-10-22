@@ -1,0 +1,221 @@
+body {
+    font-family: 'Murecho', sans-serif;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #222222;
+    padding: 20px 0; 
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+}
+
+.nav-item {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+.nav-link {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00ff26; 
+}
+
+.nav-link:hover::after {
+    width: 100%; 
+}
+
+
+.about {
+    background-color: #141414;
+    padding: 25px 0; 
+    color: #ffffff;
+    background-image: url('/img/orn_down.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center calc(100% - 5px);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image img {
+    width: 500px;
+    height: auto;
+    margin-top: -20px;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-top: -20px;
+}
+
+.about-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.about-text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.skills {
+    background-color: #141414;
+    padding: 25px 0;
+    color: #ffffff;
+    background-image: url('/img/orn_down.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center calc(100% - 0px);
+}
+
+.skills-header {
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.skills-header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.experience {
+    background-color: #141414;
+    padding: 25px 0;
+    color: #ffffff;
+    background-image: url('/img/orn_down.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center calc(100% - 0px);
+    text-align: left;
+}
+
+.experience-header {
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.experience-header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+}
+
+.experience img {
+    width: 100vw;
+    height: auto;
+    margin: -110px 0 0 0; 
+}
+
+.contacts {
+    background-color: #141414;
+    padding: 25px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contacts-header {
+    text-align: left; 
+    margin-left: 100px; 
+    margin-bottom: 50px;
+}
+
+.contacts-header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 60px; 
+    margin: 0;
+}
+
+
+.contacts-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 150px; 
+    width: auto; 
+}
+
+.icon {
+    text-align: center; 
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.icon img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+

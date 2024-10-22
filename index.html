@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котляренко Анастасия</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/Ezik.png" type="image/png">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    
+        .nav-link {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+    
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 0%;
+            height: 2px;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+    
+        .nav-link:hover {
+            color: #00ff26; 
+        }
+    
+        .nav-link:hover::after {
+            width: 100%; 
+        }
+    </style>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Работа</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="img/myfoto.png" alt="Фото Котляренко Анастасии">
+            </div>
+            <div class="about-text">
+                <h1 class="typewriter-effect">Котляренко Анастасия</h1>
+                <p>Студентка 2 курса направления<br>
+                «Прикладная математика и информатика»<br>
+                Дальневосточного федерального университета</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="skills-header">
+            <h2>Чё умею?</h2>
+        </div>
+        <div class="skills-content">
+            <div class="skills-block">
+                <img src="/img/skills_1.png" alt="Иконка 1">
+            </div>
+            <div class="skills-block">
+                <img src="/img/skills_2.png" alt="Иконка 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="experience-header">
+            <h2>Опыт работы</h2>
+        </div>
+        <img src="/img/work.png" alt="Опыт работы">
+    </section>
+    
+    <footer id="contacts" class="contacts">
+        <div class="contacts-header">
+            <h2>Контакты</h2>
+        </div>
+        <div class="contacts-content">
+            <div class="social-icons">
+                <a href="https://github.com/Nania01" class="icon"><img src="/img/git.png" alt="GitHub"></a>
+                <a href="https://vk.com/nania01" class="icon"><img src="/img/vk.png" alt="VK"></a>
+                <a href="https://t.me/Nania01" class="icon"><img src="/img/tg.png" alt="Telegram"></a>
+                <a href="https://www.tiktok.com/@n_a_n_i_a_0_1" class="icon"><img src="/img/tt.png" alt="TikTok"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=cBGxwbE6tuges0Ib" class="icon"><img src="/img/yt.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

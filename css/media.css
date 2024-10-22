@@ -1,0 +1,306 @@
+@media (min-width: 1200px) {
+    .about-content {
+        max-width: 1400px;
+        gap: 150px;
+    }
+
+    .about-text h1 {
+        font-size: 80px;
+    }
+
+    .about-text p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-content {
+        gap: 100px;
+    }
+
+    .about-text h1 {
+        font-size: 60px;
+    }
+
+    .about-text p {
+        font-size: 20px;
+    }
+
+    .about-image img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-image img {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .about-text {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .about-text h1 {
+        font-size: 40px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .about {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-text h1 {
+        font-size: 32px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    .about {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-nav {
+        padding: 20px 0;
+    }
+
+    .nav-list {
+        gap: 40px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-list {
+        gap: 30px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        padding: 10px 0;
+    }
+
+    .nav-list {
+        gap: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-nav {
+        padding: 5px 0;
+    }
+
+    .nav-list {
+        gap: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contacts-header {
+        text-align: left;
+        margin-left: 100px;
+        margin-bottom: 50px; 
+    }
+
+    .contacts-header h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts-header {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .contacts-header h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts-header {
+        margin-bottom: 20px; 
+    }
+
+    .contacts-header h2 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contacts-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px 80px;
+        border-radius: 50px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+
+    .icon img {
+        width: 100%;
+        max-width: 50px;
+        height: auto;
+        margin: 0 auto;
+        transition: transform 0.3s;
+    }
+
+    .icon img:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts-content {
+        padding: 10px 40px;
+        border-radius: 30px;
+        max-width: 90%;
+    }
+
+    .social-icons {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 50px; 
+    }
+
+    .icon img {
+        max-width: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts-content {
+        padding: 8px 20px;
+        border-radius: 20px;
+    }
+
+    .social-icons {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px; 
+    }
+
+    .icon img {
+        max-width: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    .experience-header {
+        text-align: left;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .experience-header h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-header {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .experience-header h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-header h2 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .experience img {
+        width: 100vw;
+        height: auto;
+        margin: -110px 0 0 0; 
+    }
+}
+
+@media (max-width: 768px) {
+    .experience img {
+        width: 100%; 
+        max-width: none; 
+        height: auto;
+        margin: 0 auto; 
+    }
+}
+
+@media (max-width: 480px) {
+    .experience img {
+        width: 100%; 
+        max-width: none;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills-header {
+        text-align: left;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .skills-header h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-header {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .skills-header h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-header h2 {
+        font-size: 32px;
+    }
+}
